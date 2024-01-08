@@ -1,0 +1,4 @@
+.DS_Store
+.git-blame-ignore-revs
+*.sublime-project
+*.sublime-workspace
