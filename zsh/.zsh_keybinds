@@ -1,0 +1,16 @@
+bindkey -e
+
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+
+bindkey -M emacs "^[[A"  up-line-or-beginning-search
+bindkey -M emacs "^[[B"  down-line-or-beginning-search
+bindkey -M emacs "^?"    backward-delete-char
+bindkey -M emacs "^[[3~" delete-char
+bindkey -M emacs "^[k"   clear-screen
+bindkey -M emacs "^[b" backward-word
+bindkey -M emacs "^[f" forward-word
+bindkey -M emacs "^U" kill-whole-line
