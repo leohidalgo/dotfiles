@@ -1,0 +1,33 @@
+[user]
+	name = leohidalgo
+	email = leohidalgo@protonmail.com
+	signingkey = 10EDACC1B1D5E771B27E0244E841BA4BCB51C4E6
+[core]
+    excludesfile = /Users/leohidalgo/.gitignore_global
+	ignorecase = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = /Users/leohidalgo/.homebrew/bin/gpg
+	format = openpgp
+[mergetool]
+	keepBackup = false
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+	trustExitCode = true
+[merge]
+	tool = Kaleidoscope
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[init]
+	defaultBranch = main
+[advice]
+	skippedCherryPicks = false
+[pull]
+	rebase = true
