@@ -1,0 +1,19 @@
+{
+    "segments": [
+        "time",
+        "aws_profile",
+        "username",
+        "cwd",
+        "git",
+        "jobs",
+        "read_only",
+        "root"
+    ],
+    "cwd": {
+        "max_depth": 2
+    },
+    "hostname": {
+        "colorize": true
+    },
+    "theme": "default"
+}
