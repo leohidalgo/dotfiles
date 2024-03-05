@@ -1,0 +1,63 @@
+{
+    "variables":
+    {
+    },
+    "globals":
+    {
+        "foreground": "#f8f8f2E0",
+        "line_highlight": "#45415855",
+        "selection": "#ffffff44",
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#7970A999",
+            "font_style": ""
+        },
+        {
+            "scope": "markup.highlight.read.lsp",
+            "background": "#ffffff11",
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#FFFF80EF",
+            "font_style": ""
+        },
+        {
+            "name": "Markup: bold",
+            "scope": "markup.bold",
+            "foreground": "#7970A999",
+            "font_style": "italic"
+        },
+        {
+            "scope": "entity.name.function.sighelp.lsp",
+            "background": "#ff0001"
+        },
+        {
+            "scope": "debugger.background",
+            "background": "#22212C"
+        },
+        {
+            "scope": "debugger.selection",
+            "background": "#00ff0010"
+        },
+        {
+            "scope": "comment.debugger",
+            "background": "#00000000"
+        },
+        {
+            "scope": "foreground.debugger",
+            "background": "#ff0000"
+        },
+        {
+            "scope": "entity.name.tag.yaml",
+            "foreground": "#FF80BF"
+        },
+        {
+            "scope": "meta.mapping.key string",
+            "foreground": "#FF80BF"
+        }
+    ]
+}

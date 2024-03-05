@@ -1,0 +1,32 @@
+{
+    "selector": "source.rust",
+    "target": "ansi_color_build",
+    "keyfiles": ["Cargo.toml"],
+    "cancel": { "kill": true },
+    "file_regex": " --> (?<0>?.*.rs):(\\d*):(\\d*)",
+    "syntax": "Packages/ANSIescape/ANSI.sublime-syntax",
+    "working_dir": "${project_path}",
+    "quiet": true,
+    "variants": [
+        {
+            "name": "Analyze",
+            "cmd": ["cargo", "clippy"]
+        },
+        {
+            "name": "Build",
+            "shell_cmd": "cargo build"
+        },
+        {
+            "name": "Clean",
+            "cmd": ["cargo", "clean"]
+        },
+        {
+            "name": "Run",
+            "cmd": ["cargo", "run"]
+        },
+        {
+            "name": "Test",
+            "cmd": ["cargo", "test", "--workspace"]
+        }
+    ]
+}
