@@ -72,7 +72,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 alias d="du -d1 -hc"
 alias g="gittower ."
 alias o="open ."
-alias s="subl ."
+alias s="opens"
 alias ll="ls -laGh"
 alias fl="be fastlane"
 alias be="bundle exec"
@@ -156,5 +156,15 @@ openx() {
         else
             echo "Nothing found"
         fi
+    fi
+}
+
+opens() {
+    if test -n "$(find . -maxdepth 1 -name '*.sublime-project' -print -quit)"
+    then
+        echo "Opening project"
+        subl --project *.sublime-project
+    else
+        subl .
     fi
 }
