@@ -1,0 +1,11 @@
+{
+    "exclude_folders": [
+        "/.git/",
+        "/.hg/",
+        "/.svn/",
+        "/.venv/",
+        "/node_modules/",
+        "/vendor/",
+        "/target/"
+    ]
+}

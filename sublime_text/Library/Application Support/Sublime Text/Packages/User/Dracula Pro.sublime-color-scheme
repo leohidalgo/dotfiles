@@ -1,0 +1,31 @@
+{
+    "variables":
+    {
+    },
+    "globals":
+    {
+        "foreground": "#f8f8f2E0",
+        "lineHighlight": "#45415855",
+        "selection": "#454158CC",
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#7970A999",
+            "font_style": ""
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#FFFF80EF",
+            "font_style": ""
+        },
+        {
+            "name": "Markup: bold",
+            "scope": "markup.bold",
+            "foreground": "#7970A999",
+            "font_style": "italic"
+        },
+    ]
+}

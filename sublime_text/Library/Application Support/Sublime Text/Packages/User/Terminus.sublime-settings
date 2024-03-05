@@ -1,0 +1,37 @@
+{
+    "theme": "user",
+    "user_theme_colors": {
+        "light_black": "#454158",
+        "light_red": "#ff9580",
+        "light_green": "#8aff80",
+        "light_yellow": "#ffff80",
+        "light_blue": "#9580ff",
+        "light_magenta": "#ff80bf",
+        "light_cyan": "#80ffea",
+        "light_white": "#f8f8f2",
+        "light_brown": "#cdcd00",
+
+        "black": "#504c67",
+        "red": "#ffaa99",
+        "green": "#a2ff99",
+        "yellow": "#ffff99",
+        "blue": "#aa99ff",
+        "magenta": "#ff99cc",
+        "cyan": "#99ffee",
+        "white": "#ffffff",
+        "brown": "#ffff00",
+
+        "foreground": "#f8f8f2",
+        "background": "#22212c",
+        "selection": "#454158",
+        "selection_foreground": "#000000",
+
+        "caret": "#7970a9",
+        "block_caret": "#7970a9",
+    },
+    "unix_term": "xterm-256color",
+    "256color": true,
+    "view_settings": {
+        "block_caret": true,
+    }
+}
