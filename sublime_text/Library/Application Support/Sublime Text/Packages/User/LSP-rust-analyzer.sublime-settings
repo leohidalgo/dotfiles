@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "rust-analyzer.terminusAutoClose": true,
+        "rust-analyzer.inlayHints.chainingHints.enable": false,
+        "rust-analyzer.testExplorer": true,
+        "rust-analyzer.checkOnSave": true,
+        "rust-analyzer.check.command": "clippy",
+        "rust-analyzer.diagnostics.styleLints.enable": true,
+        "rust-analyzer.hover.actions.references.enable": true,
+        "rust-analyzer.diagnostics.enable": true,
+    },
+    "disabled_capabilities": {
+    },
+    "enabled": true,
+}

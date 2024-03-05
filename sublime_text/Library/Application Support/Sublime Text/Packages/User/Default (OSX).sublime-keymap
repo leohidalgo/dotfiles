@@ -1,0 +1,91 @@
+[
+    { "keys": ["super+alt+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+
+    { "keys": ["super+alt+shift+up"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["super+alt+shift+down"], "command": "unfold_all" },
+    { "keys": ["super+alt+shift+left"], "command": "fold" },
+    { "keys": ["super+alt+shift+right"], "command": "unfold" },
+
+    { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+    {
+        "keys": ["enter"],
+        "command": "lsp_commit_completion_with_opposite_insert_mode",
+        "context": [
+            {"key": "lsp.session_with_capability", "operand": "completionProvider"},
+            {"key": "auto_complete_visible"}
+        ]
+    },
+
+    {"keys": ["ctrl+i"], "command": "reindent", "args": {"single_line": true}},
+
+    { "keys": ["super+ctrl+alt+t"], "command": "toggle_terminus_panel" },
+    { "keys": ["super+k"], "command": "terminus_keypress", "args": {"key": "l", "ctrl": true}, "context": [{"key": "terminus_view"}] },
+
+    { "keys": ["shift+super+k"], "command": "build", "args": { "variant": "Clean" } },
+    { "keys": ["super+b"], "command": "build", "args": { "variant": "Build" } },
+    { "keys": ["shift+super+b"], "command": "build", "args": { "variant": "Analyze" } },
+    { "keys": ["alt+super+shift+b"], "command": "build", "args": {"select": true} },
+    { "keys": ["super+u"], "command": "build", "args": { "variant": "Test" } },
+    { "keys": ["super+alt+u"], "command": "build", "args": { "variant": "Related Test" } },
+    { "keys": ["super+r"], "command": "build", "args": { "variant": "Run" } },
+
+    { "keys": ["shift+super+y"], "command": "show_panel", "args": { "panel": "output.exec", "toggle": true, "toggle_when_not_focused": true } },
+
+    { "keys": ["super+enter"], "command": "toggle_full_screen" },
+    { "keys": ["shift+super+j"], "command": "reveal_in_side_bar" },
+
+    { "keys": ["ctrl+alt+super+p"], "command": "open_file", "args": { "file": "${project}" }  },
+    { "keys": ["alt+super+t"], "command": "todo_review" },
+
+    { "keys": ["super+."], "command": "ansi_color_build", "args": { "kill": true } },
+
+    { "keys": ["shift+super+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["super+p"], "command": "noop" },
+
+    { "keys": ["super+0"], "command": "toggle_side_bar" },
+    { "keys": ["super+1"], "command": "focus_side_bar" },
+
+    { "keys": ["ctrl+/"], "command": "auto_complete" },
+    { "keys": ["ctrl+/"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["super+shift+l"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
+
+    {
+        "keys": ["ctrl+super+j"], "command": "lsp_symbol_definition", "args": {"side_by_side": false, "force_group": true, "group": -1},
+        "context": [
+            {"key": "lsp.session_with_capability", "operand": "definitionProvider"},
+            {"key": "auto_complete_visible", "operand": false}
+        ]
+    },
+    { "keys": ["ctrl+\\"], "command": "next_modification" },
+    { "keys": ["ctrl+|"], "command": "prev_modification" },
+
+    { "keys": ["ctrl+u"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+    { "keys": ["f6"], "command": "debugger", "args": { "action": "step_over" } },
+    { "keys": ["f7"], "command": "debugger", "args": { "action": "step_in" } },
+    { "keys": ["f8"], "command": "debugger", "args": { "action": "step_out" } },
+    { "keys": ["super+y"], "command": "debugger", "args": { "action": "toggle_breakpoint" } },
+
+    { "keys": ["ctrl+y"], "command": "debugger", "context": [{ "key": "debugger.active", "operator": "equal", "operand": false }], "args": { "action": "open_and_start" }},
+    { "keys": ["ctrl+y"], "command": "debugger", "context": [{ "key": "debugger.active", "operator": "equal", "operand": true }], "args": { "action": "continue" }},
+
+    { "keys": ["alt+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
+    { "keys": ["alt+delete"], "command": "delete_word", "args": { "forward": true, "sub_words": true } },
+
+    { "keys": ["ctrl+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": false } },
+    { "keys": ["ctrl+delete"], "command": "delete_word", "args": { "forward": true, "sub_words": false } },
+
+    { "keys": ["ctrl+super+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["ctrl+super+right"], "command": "focus_neighboring_group" },
+    { "keys": ["super+k", "ctrl+super+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+    { "keys": ["super+k", "ctrl+super+right"], "command": "move_to_neighboring_group" },
+    { "keys": ["super+t"], "command": "new_pane" },
+]

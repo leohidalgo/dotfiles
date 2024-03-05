@@ -1,0 +1,9 @@
+{
+    "brace_newline": false,
+    "bracket_newline": false,
+    "jq_binary": "/Users/leohidalgo/.homebrew/bin/jq",
+    "jq_errors": true,
+    "keep_arrays_single_line": false,
+    "set_syntax_on_format": true,
+    "validate_on_save": true,
+}

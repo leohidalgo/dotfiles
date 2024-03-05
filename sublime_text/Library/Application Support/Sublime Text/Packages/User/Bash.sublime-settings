@@ -1,0 +1,7 @@
+{
+	"extensions":
+	[
+		".zsh_aliases",
+		".zsh_keybinds",
+	],
+}
