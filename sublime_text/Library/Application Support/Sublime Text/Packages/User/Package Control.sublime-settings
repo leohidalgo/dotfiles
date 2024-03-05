@@ -1,0 +1,51 @@
+{
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "A File Icon",
+        "Ansible",
+        "ANSIescape",
+        "AutoFoldCode",
+        "BazelSyntax",
+        "ColorPick",
+        "Debugger",
+        "Dockerfile Syntax Highlighting",
+        "DotENV",
+        "EditorConfig",
+        "Generic Config",
+        "Git",
+        "Git blame",
+        "Hooks",
+        "INI",
+        "Jq",
+        "Kubernetes Manifest autocomplete",
+        "Language - Spanish",
+        "LSP",
+        "LSP-dockerfile",
+        "LSP-file-watcher-chokidar",
+        "LSP-rust-analyzer",
+        "LSP-SourceKit",
+        "LSP-typescript",
+        "MarkdownPreview",
+        "Normalize Indentation",
+        "Package Control",
+        "Pretty JSON",
+        "Protobuf Syntax Hightlighting",
+        "SublimeLinter",
+        "SublimeLinter-contrib-swiftlint",
+        "Swift Next",
+        "Terminus",
+        "Theme - One Dark",
+        "TodoReview",
+        "TOML",
+        "Translator",
+    ],
+    "debug": true,
+    "repositories":
+    [
+		"https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json"
+    ],
+}

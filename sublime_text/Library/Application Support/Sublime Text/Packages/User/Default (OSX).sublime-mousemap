@@ -1,0 +1,24 @@
+[
+    {
+        "button": "button1",
+        "count": 1,
+        "modifiers": ["super"],
+        "press_command": "drag_select",
+        "command": "goto_definition"
+    },
+    {
+        "button": "button1",
+        "count": 1,
+        "modifiers": ["ctrl", "shift"],
+        "press_command": "drag_select",
+        "press_args": {"additive": true}
+    },
+    {
+        "button": "button1",
+        "modifiers": ["super"],
+        "press_command": "drag_select",
+        "command": "todo_review_results",
+        "context": [{ "key": "setting.command_mode", "operand": true }, { "key": "setting.todo_results" }],
+        "args": { "open": true }
+    },
+]
