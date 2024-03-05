@@ -1,0 +1,9 @@
+{
+    "diagnostics_gutter_marker": "sign",
+    "show_multiline_diagnostics_highlights": false,
+    "show_inlay_hints": true,
+    "document_highlight_style": "background",
+    "hover_highlight_style": "stippled",
+    "show_code_lens": "annotation",
+    "diagnostics_panel_include_severity_level": 3
+}
