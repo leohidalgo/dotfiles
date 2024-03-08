@@ -12,6 +12,10 @@ export HOMEBREW_CASK_OPTS=--require-sha
 ## carthage
 . $(brew --prefix)/share/zsh/site-functions/_carthage
 
+## bazel
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache
+
 ### sublime
 export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH
 
