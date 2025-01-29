@@ -22,7 +22,6 @@ export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH
 ### fastlane
 export FASTLANE_SKIP_UPDATE_CHECK=1
 export FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT=120
-. ~/.fastlane/completions/completion.zsh
 
 ### gpg ssh
 export GPG_TTY="$(tty)"
