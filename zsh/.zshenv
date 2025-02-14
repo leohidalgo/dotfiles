@@ -13,7 +13,7 @@ export KEYID=10EDACC1B1D5E771B27E0244E841BA4BCB51C4E6
 ### homebrew
 export HOMEBREW_BUNDLE_FILE=~/.brewfile
 export HOMEBREW_BUNDLE_INSTALL_CLEANUP=1
-export HOMEBREW_CASK_OPTS=--require-sha
+export HOMEBREW_CASK_OPTS="--require-sha --appdir=~/Applications"
 export HOMEBREW_NO_INSTALL_CLEANUP=1
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
@@ -24,8 +24,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export PRE_COMMIT_COLOR=never
 
 ### rust
-. "$HOME/.cargo/env"
-
+export PATH=$HOME/.homebrew/opt/rustup/bin:$PATH
 export CARGO_CARGO_NEW_VCS=none
 export RUSTFLAGS="-A unused_imports -A unused_variables"
 
