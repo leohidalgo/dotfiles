@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.vitor.safaritools</string>
+	<key>connections</key>
+	<dict>
+		<key>05165E11-F3FD-44A5-9989-4F477F736D59</key>
+		<array/>
+		<key>1220FD1D-F9C9-4499-9841-AF909F4F95E9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8B56D39-E800-4850-B965-0CB296705C5A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8C2C96F1-6096-4F5B-85FD-8ABDFF6B0C2B</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy all tab URLs</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C00C7E30-61D2-4367-8F9F-A5F144DEA486</string>
+				<key>modifiers</key>
+				<integer>1572864</integer>
+				<key>modifiersubtext</key>
+				<string>Copy current window tab URLs</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>27604D19-9564-4391-B227-B82D3C0A967A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>99F8D5A9-D890-4FF7-B935-AAEBB81BC0CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>75C82C59-0A67-4721-9701-4A05D9894465</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>98A5B540-D370-420E-819B-F1788FA1B513</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>801DF19B-A803-42CD-987A-5C3F282A2592</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F35C429E-DFF1-4868-9A9F-CA15CF247527</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Edit URL</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9F06EA70-FF00-4F53-B404-E88FEC677616</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>75C82C59-0A67-4721-9701-4A05D9894465</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open domain</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8C2C96F1-6096-4F5B-85FD-8ABDFF6B0C2B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C003B9C7-CFAE-4169-9DA0-F235F02D732D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>98A5B540-D370-420E-819B-F1788FA1B513</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9F06EA70-FF00-4F53-B404-E88FEC677616</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99F8D5A9-D890-4FF7-B935-AAEBB81BC0CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AAE41CCE-EC59-4C37-95E1-DB3AB2352811</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9F06EA70-FF00-4F53-B404-E88FEC677616</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E1A0891-335C-4CB0-BDA0-B4FBEA09D806</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AAE41CCE-EC59-4C37-95E1-DB3AB2352811</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>05165E11-F3FD-44A5-9989-4F477F736D59</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B8B56D39-E800-4850-B965-0CB296705C5A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9F06EA70-FF00-4F53-B404-E88FEC677616</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C00C7E30-61D2-4367-8F9F-A5F144DEA486</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C003B9C7-CFAE-4169-9DA0-F235F02D732D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CD5384D9-A416-4123-A9FE-2419D2C3E0B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>801DF19B-A803-42CD-987A-5C3F282A2592</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DCE044CA-7BE6-4381-AE54-D31001367D5E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>801DF19B-A803-42CD-987A-5C3F282A2592</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F35C429E-DFF1-4868-9A9F-CA15CF247527</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9F06EA70-FF00-4F53-B404-E88FEC677616</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vítor Galvão</string>
+	<key>description</key>
+	<string>Interact with Safari history, tabs, and other settings</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Safari Tools</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.apple.Safari</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>DCE044CA-7BE6-4381-AE54-D31001367D5E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F35C429E-DFF1-4868-9A9F-CA15CF247527</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly wf_cache="${alfred_workflow_cache}/icons"
+readonly ti_cache="${HOME}/Library/Safari/Touch Icons Cache"
+
+/bin/mkdir -p "${wf_cache}"
+
+while IFS= read -r host
+do
+  [[ -f "${wf_cache}/${host}.png" ]] &amp;&amp; continue
+  /bin/cp "${ti_cache}/images/$(echo -n "${host}" | /sbin/md5 | /usr/bin/tr '[:lower:]' '[:upper:]').png" "${wf_cache}/${host}.png"
+done &lt; &lt;(/usr/bin/sqlite3 "${ti_cache}/TouchIconCacheSettings.db" 'SELECT host FROM cache_settings WHERE icon_is_in_cache')</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6E1A0891-335C-4CB0-BDA0-B4FBEA09D806</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>CD5384D9-A416-4123-A9FE-2419D2C3E0B0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>{var:history_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Querying history…</string>
+				<key>script</key>
+				<string>/usr/bin/sqlite3 \
+  "${HOME}/Library/Safari/History.db" \
+  ".parameter set :alfred_cache '${alfred_workflow_cache}'" \
+  ".parameter set :max_items '${max_items}'" \
+  "SELECT JSON_OBJECT('cache', JSON_OBJECT('seconds', 5, 'loosereload', true),
+    'items', JSON_GROUP_ARRAY(JSON_OBJECT(
+      'title', IIF(title IS NULL OR title IS '', url, title),
+      'subtitle', url,
+      'arg', url,
+      'match', title || ' ' || url,
+      'icon', JSON_OBJECT(
+        'path', :alfred_cache || '/icons/' ||
+        -- Extract domain from URL
+        SUBSTR(url, INSTR(url, '://') + 3, INSTR(SUBSTR(url, INSTR(url, '://') + 3), '/') - 1) ||
+        '.png'))))
+  AS JSON_RESULT FROM (
+    SELECT url, title
+      FROM history_items
+      INNER JOIN history_visits ON history_visits.history_item = history_items.id
+      GROUP BY url
+      ORDER BY visit_time
+      DESC LIMIT :max_items * 1000)"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Show Webapages Recently Visited in Safari</string>
+				<key>title</key>
+				<string>Safari History</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>801DF19B-A803-42CD-987A-5C3F282A2592</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9F06EA70-FF00-4F53-B404-E88FEC677616</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function urlComponents(url, componentsCount) {
+  const host = url.scheme.js + "://" + url.host.js + "/"
+  const components = url.pathComponents.js.map(a =&gt; encodeURIComponent(a.js)).slice(1)
+
+  return host + components.slice(0, componentsCount).join("/")
+}
+
+function run(argv) {
+  const url = $.NSURL.URLWithString(argv[0])
+
+  if (envVar("smart_domain") === "0") return urlComponents(url, 0) 
+
+  switch (url.host.js.replace(/^www\d*\./, "")) {
+    case "github.com": return urlComponents(url, 2)
+    default: return urlComponents(url, 0)
+  }
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>75C82C59-0A67-4721-9701-4A05D9894465</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>98A5B540-D370-420E-819B-F1788FA1B513</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:tabs_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Querying tabs…</string>
+				<key>script</key>
+				<string>function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function runCommand(...arguments) {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/env")
+  task.arguments = arguments
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return stringOut
+}
+
+const browserRaw = runCommand($("~/Library/Application Support/Alfred/Automation/Tasks/com.alfredapp.automation.core/safari/.common/tabs").stringByExpandingTildeInPath.js,
+  "Safari", "1", "0", "json")
+
+const browserParsed = JSON.parse(JSON.parse(browserRaw)["alfredworkflow"]["arg"])
+
+const sfItems = browserParsed.map(item =&gt; {
+  const domain = item["url"]?.replace(/^https?:\/\/(.+?)\/.*/, "$1")
+
+  return {
+    title: item["title"],
+    subtitle: item["url"],
+    icon: { path: `${envVar("alfred_workflow_cache")}/icons/${domain}.png` },
+    match: `${item["title"]} ${item["url"]}`,
+    arg: item["url"]
+  }
+})
+
+JSON.stringify({
+  cache: { seconds: 5, loosereload: true },
+  items: sfItems
+})</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Show Tabs Currently Open in Safari</string>
+				<key>title</key>
+				<string>Safari Tabs</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>1220FD1D-F9C9-4499-9841-AF909F4F95E9</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>B8B56D39-E800-4850-B965-0CB296705C5A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/safari/safari.tabs</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>8C2C96F1-6096-4F5B-85FD-8ABDFF6B0C2B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C003B9C7-CFAE-4169-9DA0-F235F02D732D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>all_windows</key>
+					<false/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/safari/safari.tabs</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>C00C7E30-61D2-4367-8F9F-A5F144DEA486</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:user_agent_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Getting available user agents…</string>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function developMenuOn() {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.alloc.initFileURLWithPath("/usr/bin/defaults")
+  task.arguments = ["read", "com.apple.Safari", "IncludeDevelopMenu"]
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFile
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return stringOut.trim() === "1"
+}
+
+// Main
+function run(argv) {
+  // Menu breadcrumbs
+  const breadcrumbs = envVar("user_agent_menu").split("\n")
+
+  // Checks
+  if (!developMenuOn()) {
+    return JSON.stringify({ items: [{
+      title: "Safari’s Develop Menu Is Not Active",
+      subtitle: "It Is Required to Change User Agent",
+      valid: false
+    }]})
+  }
+
+  // Grab user agents
+  const browserAgents = Application("System Events")
+    .processes
+    .byName("Safari")
+    .menuBars[0]
+    .menuBarItems
+    .byName(breadcrumbs[0])
+    .menus[0]
+    .menuItems
+    .byName(breadcrumbs[1])
+    .menus[0]
+    .menuItems()
+    .map(item =&gt; item.name())
+    .filter(item =&gt; item !== null)
+
+  // Build Items
+  const sfItems = browserAgents.map(agent =&gt; ({ title: agent, arg: agent }))
+  return JSON.stringify({ cache: { seconds: 86400, loosereload: true }, items: sfItems })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Switch the User Agent for Safari</string>
+				<key>title</key>
+				<string>Safari User Agent</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>27604D19-9564-4391-B227-B82D3C0A967A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>menubar_items</key>
+					<string>{var:user_agent_menu}
+{var:new_agent}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/macOS/app.current.click.menubar.item</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>05165E11-F3FD-44A5-9989-4F477F736D59</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>app_list</key>
+					<string>Safari</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/macOS/app.open</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>AAE41CCE-EC59-4C37-95E1-DB3AB2352811</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>new_agent</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>99F8D5A9-D890-4FF7-B935-AAEBB81BC0CE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+
+### History Search
+
+Search Safari history via the `sfhist` keyword.
+
+![Searching Safari history](images/about/sfhist.png)
+
+* &lt;kbd&gt;↩&lt;/kbd&gt; Open webpage.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Open website domain.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Edit URL before opening.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;C&lt;/kbd&gt; Copy URL to clipboard.
+
+Favicons begin to populate with use.
+
+Set the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;Y&lt;/kbd&gt; to override Safari’s own History.
+
+### Tab Search
+
+Search open tabs via the `sftabs` keyword.
+
+![Searching Safari tabs](images/about/sftabs.png)
+
+* &lt;kbd&gt;↩&lt;/kbd&gt; Switch to tab.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy all tab URLs to clipboard.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy current window tab URLs to clipboard.
+
+### User Agent Switching
+
+Switch User Agent for the frontmost tab via the `sfagent` keyword.
+
+![Choosing Safari User Agent](images/about/sfagent.png)</string>
+	<key>uidata</key>
+	<dict>
+		<key>05165E11-F3FD-44A5-9989-4F477F736D59</key>
+		<dict>
+			<key>xpos</key>
+			<real>490</real>
+			<key>ypos</key>
+			<real>880</real>
+		</dict>
+		<key>1220FD1D-F9C9-4499-9841-AF909F4F95E9</key>
+		<dict>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>515</real>
+		</dict>
+		<key>27604D19-9564-4391-B227-B82D3C0A967A</key>
+		<dict>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>880</real>
+		</dict>
+		<key>6E1A0891-335C-4CB0-BDA0-B4FBEA09D806</key>
+		<dict>
+			<key>note</key>
+			<string>Copy touch icons</string>
+			<key>xpos</key>
+			<real>915</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>75C82C59-0A67-4721-9701-4A05D9894465</key>
+		<dict>
+			<key>note</key>
+			<string>Open Domain</string>
+			<key>xpos</key>
+			<real>490</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+		<key>801DF19B-A803-42CD-987A-5C3F282A2592</key>
+		<dict>
+			<key>xpos</key>
+			<real>270</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>8C2C96F1-6096-4F5B-85FD-8ABDFF6B0C2B</key>
+		<dict>
+			<key>xpos</key>
+			<real>320</real>
+			<key>ypos</key>
+			<real>620</real>
+		</dict>
+		<key>98A5B540-D370-420E-819B-F1788FA1B513</key>
+		<dict>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+		<key>99F8D5A9-D890-4FF7-B935-AAEBB81BC0CE</key>
+		<dict>
+			<key>xpos</key>
+			<real>250</real>
+			<key>ypos</key>
+			<real>910</real>
+		</dict>
+		<key>9F06EA70-FF00-4F53-B404-E88FEC677616</key>
+		<dict>
+			<key>xpos</key>
+			<real>735</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>AAE41CCE-EC59-4C37-95E1-DB3AB2352811</key>
+		<dict>
+			<key>xpos</key>
+			<real>320</real>
+			<key>ypos</key>
+			<real>880</real>
+		</dict>
+		<key>B8B56D39-E800-4850-B965-0CB296705C5A</key>
+		<dict>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>545</real>
+		</dict>
+		<key>C003B9C7-CFAE-4169-9DA0-F235F02D732D</key>
+		<dict>
+			<key>xpos</key>
+			<real>490</real>
+			<key>ypos</key>
+			<real>620</real>
+		</dict>
+		<key>C00C7E30-61D2-4367-8F9F-A5F144DEA486</key>
+		<dict>
+			<key>xpos</key>
+			<real>320</real>
+			<key>ypos</key>
+			<real>745</real>
+		</dict>
+		<key>CD5384D9-A416-4123-A9FE-2419D2C3E0B0</key>
+		<dict>
+			<key>note</key>
+			<string>Show Safari history regardless of context</string>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>DCE044CA-7BE6-4381-AE54-D31001367D5E</key>
+		<dict>
+			<key>note</key>
+			<string>Open history when Safari is frontmost. Can be set to ⌘Y to override Safari’s own history page.</string>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>F35C429E-DFF1-4868-9A9F-CA15CF247527</key>
+		<dict>
+			<key>note</key>
+			<string>Edit URL</string>
+			<key>xpos</key>
+			<real>490</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>sfhist</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>History Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>history_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>5</integer>
+				<key>markercount</key>
+				<integer>21</integer>
+				<key>maxvalue</key>
+				<integer>100</integer>
+				<key>minvalue</key>
+				<integer>1</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>In thousands. More results take longer to process.</string>
+			<key>label</key>
+			<string>Maximum Items</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>max_items</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Try to keep context when opening domain</string>
+			</dict>
+			<key>description</key>
+			<string>For example, the smart domain for a GitHub address is the repository’s root, not GitHub’s homepage.</string>
+			<key>label</key>
+			<string>Smart Domain</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>smart_domain</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>sftabs</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Tabs Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>tabs_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>sfagent</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Agent Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>user_agent_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>Develop
+User Agent</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+				<key>verticalsize</key>
+				<integer>3</integer>
+			</dict>
+			<key>description</key>
+			<string>Change if your system is not in English and the item under "Develop" has a different name.</string>
+			<key>label</key>
+			<string>Agent Menu</string>
+			<key>type</key>
+			<string>textarea</string>
+			<key>variable</key>
+			<string>user_agent_menu</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>2025.2</string>
+	<key>webaddress</key>
+	<string>https://github.com/alfredapp/safari-tools-workflow/</string>
+</dict>
+</plist>

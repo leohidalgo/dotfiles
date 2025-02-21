@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>37818170-1CB0-459C-A6A8-A92C179F7E8E</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gh</string>
+			<key>text</key>
+			<string>Search github.com for '{query}'</string>
+			<key>url</key>
+			<string>https://github.com/search?q={query}&amp;type=repositories</string>
+		</dict>
+		<key>485694B8-BC24-4328-BF44-48B7B9AE4F9E</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>ct</string>
+			<key>text</key>
+			<string>Rust crates.io</string>
+			<key>url</key>
+			<string>https://crates.io/search?q={query}</string>
+		</dict>
+		<key>AFE27EDF-22D2-44C0-A42E-3BD96A6FD148</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>rs</string>
+			<key>text</key>
+			<string>Rust docs.rs</string>
+			<key>url</key>
+			<string>https://docs.rs/releases/search?query={query}</string>
+		</dict>
+		<key>CF7E5C63-036F-4E94-97F2-4310A333A850</key>
+		<dict>
+			<key>enabled</key>
+			<false/>
+			<key>keyword</key>
+			<string>crate</string>
+			<key>text</key>
+			<string>crates.io</string>
+			<key>url</key>
+			<string>https://crates.io/search?q={query}</string>
+		</dict>
+		<key>DF55E538-E7EB-46C3-A15A-5FF01991923C</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>tr</string>
+			<key>text</key>
+			<string>deepl</string>
+			<key>url</key>
+			<string>https://www.deepl.com/en/translator#en/es/{query}</string>
+		</dict>
+	</dict>
+	<key>onlyShowEnabledInPrefs</key>
+	<true/>
+</dict>
+</plist>
