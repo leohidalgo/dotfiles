@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>applicationUseKeywords</key>
+	<true/>
+	<key>fallbacks</key>
+	<array>
+		<string>features.websearch.duckduckgo.fallback</string>
+		<string>features.websearch.custom.37818170-1CB0-459C-A6A8-A92C179F7E8E.fallback</string>
+		<string>features.websearch.wiki.fallback</string>
+	</array>
+	<key>showPreferences</key>
+	<false/>
+	<key>showUserDefined</key>
+	<array>
+		<string>com.apple.dt.document.workspace</string>
+		<string>com.apple.xcode.project</string>
+		<string>com.sublimehq.sublimetext.project</string>
+	</array>
+</dict>
+</plist>
